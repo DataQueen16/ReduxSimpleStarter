@@ -13,7 +13,9 @@ class Series extends Component {
     }
     render(){
         return (
-            <div>The length of series array - {this.state.series.length}</div>
+            <div>The length of series array - {this.state.series.length}
+            <SeriesList List = {this.state.series}/>
+            </div>
         )
     }
 }
