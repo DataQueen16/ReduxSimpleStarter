@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
+import Main from '../Main';
 import './App.css';
 import 'whatwg-fetch';
-import Series from '../../containers/Series/index';
 
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
           <header className="App-header">
               <h1 className="App-title">TV Series List</h1>
           </header>
-          <Series/>
+          <Main/>
       </div>;
   }
 }
