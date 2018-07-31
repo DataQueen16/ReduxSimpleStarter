@@ -4,7 +4,7 @@ import YTSearch from 'youtube-api-search';
 import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 
-const API_KEY = 'AIzaSyADSheNOszT_ofPlDbMYdvRk1h9tw5VCDU';
+
 
 // Create a new component. This component will produce some HTMl
 class App extends Component {
